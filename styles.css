@@ -1,0 +1,163 @@
+#wfrp3e-roller .dice-type {
+    display: flex;
+    flex-direction: row;
+}
+
+#wfrp3e-roller img {
+    border: none
+}
+
+#wfrp3e-roller  .window-content{
+    background: #CCC
+}
+
+#wfrp3e-roller .type-details {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+
+#wfrp3e-roller .type-details input {
+    width: 50px
+}
+
+#wfrp3e-roller button {
+    flex: 0.4;
+}
+
+#wfrp3e-roller .dice-roller {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dice-tooltip .dice-rolls .roll.d6.expertisedie {
+    background: none;
+}
+.dice-tooltip .dice-rolls .roll.d6.expertisedie.rolled-boon {
+    content: url(./dice/expertise-boon.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.expertisedie.rolled-success {
+    content: url(./dice/expertise-success.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.expertisedie.rolled-righteous-success {
+    content: url(./dice/expertise-righteous-success.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.expertisedie.rolled-comet {
+    content: url(./dice/expertise-comet.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.expertisedie.rolled-blank {
+    content: url(./dice/expertise-blank.png);
+}
+
+
+.dice-tooltip .dice-rolls .roll.d6.fortunedie.rolled-boon {
+    content: url(./dice/fortune-boon.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.fortunedie.rolled-success {
+    content: url(./dice/fortune-success.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.fortunedie.rolled-blank {
+    content: url(./dice/fortune-blank.png);
+}
+
+
+.dice-tooltip .dice-rolls .roll.d6.misfortunedie.rolled-bane {
+    content: url(./dice/misfortune-bane.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.misfortunedie.rolled-challenge {
+    content: url(./dice/misfortune-challenge.png);
+}
+.dice-tooltip .dice-rolls .roll.d6.misfortunedie.rolled-blank {
+    content: url(./dice/misfortune-blank.png);
+}
+
+
+.dice-tooltip .dice-rolls .roll.d8.challengedie.rolled-bane {
+    content: url(./dice/challenge-bane.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.challengedie.rolled-bane-S {
+    content: url(./dice/challenge-bane-S.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.challengedie.rolled-blank {
+    content: url(./dice/challenge-blank.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.challengedie.rolled-challenge {
+    content: url(./dice/challenge-challenge.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.challengedie.rolled-challenge-S {
+    content: url(./dice/challenge-challenge-S.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.challengedie.rolled-star {
+    content: url(./dice/challenge-star.png);
+}
+
+
+.dice-tooltip .dice-rolls .roll.d8.characteristicdie.rolled-boon {
+    content: url(./dice/characteristic-boon.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.characteristicdie.rolled-blank {
+    content: url(./dice/characteristic-blank.png);
+}
+.dice-tooltip .dice-rolls .roll.d8.characteristicdie.rolled-success {
+    content: url(./dice/characteristic-success.png);
+}
+
+
+
+.dice-tooltip .dice-rolls .roll.d10.recklessdie.rolled-boon-S {
+    content: url(./dice/reckless-boon-S.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.recklessdie.rolled-blank {
+    content: url(./dice/reckless-blank.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.recklessdie.rolled-boon-success {
+    content: url(./dice/reckless-boon-success.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.recklessdie.rolled-success-S {
+    content: url(./dice/reckless-success-S.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.recklessdie.rolled-success-exert {
+    content: url(./dice/reckless-success-exert.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.recklessdie.rolled-bane{
+    content: url(./dice/reckless-bane.png);
+}
+
+
+.dice-tooltip .dice-rolls .roll.d10.conservativedie.rolled-boon {
+    content: url(./dice/conservative-blank.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.conservativedie.rolled-blank {
+    content: url(./dice/conservative-blank.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.conservativedie.rolled-success {
+    content: url(./dice/conservative-success.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.conservativedie.rolled-boon-success {
+    content: url(./dice/conservative-boon-success.png);
+}
+.dice-tooltip .dice-rolls .roll.d10.conservativedie.rolled-success-delay {
+    content: url(./dice/conservative-success-delay.png);
+}
+
+
+
+
+
+
+
+
+
+.dice-tooltip .dice-rolls .roll.max,
+.dice-tooltip .dice-rolls .roll.min {
+    color: unset;
+    filter: none
+} 
+
+.dice-tooltip .dice-rolls .roll.d6 ,
+.dice-tooltip .dice-rolls .roll.d8 ,
+.dice-tooltip .dice-rolls .roll.d10 {
+    width: 50px;
+    background-image: none
+}

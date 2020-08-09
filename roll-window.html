@@ -1,0 +1,12 @@
+<div class ="dice-roller">
+    {{#each diceTypes as |type index|}}
+    <div class="dice-type">
+        <img width="100px" height="100px" src = "modules/wfrp3e/dice/{{type.img}}.png">
+        <div class="type-details">
+            {{type.label}}
+            <input type="number" value="0" data-type = "{{type.key}}">
+        </div>
+    </div>
+    {{/each}}
+    <button class="roll-button" type="submit">Roll</button>
+</div>

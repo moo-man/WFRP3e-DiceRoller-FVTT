@@ -1,0 +1,26 @@
+{
+  "name": "wfrp3e",
+  "title": "WFRP 3e Dice Roller",
+  "description": "WFRP 3e Dice Roller - Accessible by clicking on the dice icon next to the chat window.",
+  "version": "0.8",
+  "author": "Moo Man",
+  "scripts": [
+    "./script.js",
+    "./roller.js"
+  ],
+  "styles": [
+    "./styles.css"
+  ],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.7.0",
+  "manifest": "",
+  "download": ""
+}
